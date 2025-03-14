@@ -1,7 +1,7 @@
 <?php
 function UPPER($string) {
-    $load=strtoupper($string);
+    $load=mb_strtoupper($string);
     return $load;
 }
-print(UPPER("hello world dear friend from php"));
+print(UPPER("hello world dear friend from php, хей-хей-хей"));
 ?>
